@@ -189,7 +189,7 @@ jobs:
 
           chmod +x ./dist/service/hyperhdr/hyperhdr
           chmod +x ./dist/service/hyperhdr/hyperhdr-remote
-          #chmod +x ./dist/service/hyperhdr/flatc
+          #chmod +x ./dist/service/hyperhdr/flatc        # commented out since IPK wont build with this, dont know whats going on, fix later
           #chmod +x ./dist/service/hyperhdr/flathash
 
       - name: Copy HDR LUT
